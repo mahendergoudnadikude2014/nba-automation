@@ -1,0 +1,8 @@
+<suite name="DP2 Suite" parallel="tests" thread-count="3">
+  <test name="Derived Product2 Tests">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.nba.automation.DP2.runner.DP2TestRunner"/>
+    </classes>
+  </test>
+</suite>

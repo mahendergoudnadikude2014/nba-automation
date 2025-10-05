@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-03T20:40:21 IST" name="NBA Automation Suite" finished-at="2025-10-03T20:40:39 IST" duration-ms="17863">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nba.automation.DP2.runner.DP2TestRunner@235834f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-03T20:40:21 IST" name="Derived Product2 Tests" finished-at="2025-10-03T20:40:39 IST" duration-ms="17863">
+      <class name="com.nba.automation.DP2.runner.DP2TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nba.automation.DP2.runner.DP2TestRunner@235834f2]" started-at="2025-10-03T20:40:21 IST" name="setUpClass" finished-at="2025-10-03T20:40:23 IST" duration-ms="1411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@175b9425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nba.automation.DP2.runner.DP2TestRunner@235834f2]" started-at="2025-10-03T20:40:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-03T20:40:39 IST" duration-ms="16204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate footer hyperlinks on DP2 homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DP2 Home Page Footer Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nba.automation.DP2.runner.DP2TestRunner@235834f2]" started-at="2025-10-03T20:40:39 IST" name="tearDownClass" finished-at="2025-10-03T20:40:39 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nba.automation.DP2.runner.DP2TestRunner -->
+    </test> <!-- Derived Product2 Tests -->
+  </suite> <!-- NBA Automation Suite -->
+</testng-results>

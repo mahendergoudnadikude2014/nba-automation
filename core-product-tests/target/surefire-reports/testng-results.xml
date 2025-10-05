@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-05T18:56:13 IST" name="CP Suite" finished-at="2025-10-05T18:57:00 IST" duration-ms="47009">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nba.automation.coreproduct.runner.CPTestRunner@2c767a52]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-05T18:56:13 IST" name="Core Product Tests" finished-at="2025-10-05T18:57:00 IST" duration-ms="47009">
+      <class name="com.nba.automation.coreproduct.runner.CPTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nba.automation.coreproduct.runner.CPTestRunner@2c767a52]" started-at="2025-10-05T18:56:13 IST" name="setUpClass" finished-at="2025-10-05T18:56:14 IST" duration-ms="972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@443118b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.nba.automation.coreproduct.runner.CPTestRunner@2c767a52]" started-at="2025-10-05T18:56:14 IST" name="setUp" finished-at="2025-10-05T18:56:19 IST" duration-ms="4814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nba.automation.coreproduct.runner.CPTestRunner@2c767a52]" started-at="2025-10-05T18:56:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-05T18:56:43 IST" duration-ms="24280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["List all jackets with details across paginated pages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Core Product Shop - Jackets Listing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nba.automation.coreproduct.runner.CPTestRunner@2c767a52]" started-at="2025-10-05T18:56:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-05T18:57:00 IST" duration-ms="16144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Count videos and those older than 3 days on New & Features page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["New and Featured Videos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nba.automation.coreproduct.runner.CPTestRunner@2c767a52]" started-at="2025-10-05T18:57:00 IST" name="tearDown" finished-at="2025-10-05T18:57:00 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nba.automation.coreproduct.runner.CPTestRunner@2c767a52]" started-at="2025-10-05T18:57:00 IST" name="tearDownClass" finished-at="2025-10-05T18:57:00 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nba.automation.coreproduct.runner.CPTestRunner -->
+    </test> <!-- Core Product Tests -->
+  </suite> <!-- CP Suite -->
+</testng-results>

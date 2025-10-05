@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-05T18:57:04 IST" name="DP1 Suite" finished-at="2025-10-05T18:58:52 IST" duration-ms="108704">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nba.automation.DP1.runner.DP1TestRunner@2c767a52]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-05T18:57:04 IST" name="Derived Product1 Tests" finished-at="2025-10-05T18:58:52 IST" duration-ms="108704">
+      <class name="com.nba.automation.DP1.runner.DP1TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.nba.automation.DP1.runner.DP1TestRunner@2c767a52]" started-at="2025-10-05T18:57:04 IST" name="setUpClass" finished-at="2025-10-05T18:57:05 IST" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76505305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.nba.automation.DP1.runner.DP1TestRunner@2c767a52]" started-at="2025-10-05T18:57:05 IST" name="setUp" finished-at="2025-10-05T18:57:09 IST" duration-ms="3970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nba.automation.DP1.runner.DP1TestRunner@2c767a52]" started-at="2025-10-05T18:57:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-05T18:58:52 IST" duration-ms="103147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Count slides, validate titles and durations under Tickets Menu on DP1 homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Slides on DP1 Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nba.automation.DP1.runner.DP1TestRunner@2c767a52]" started-at="2025-10-05T18:58:52 IST" name="tearDown" finished-at="2025-10-05T18:58:52 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.nba.automation.DP1.runner.DP1TestRunner@2c767a52]" started-at="2025-10-05T18:58:52 IST" name="tearDownClass" finished-at="2025-10-05T18:58:52 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nba.automation.DP1.runner.DP1TestRunner -->
+    </test> <!-- Derived Product1 Tests -->
+  </suite> <!-- DP1 Suite -->
+</testng-results>

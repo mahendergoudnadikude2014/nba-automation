@@ -1,0 +1,8 @@
+<suite name="CP Suite" parallel="tests" thread-count="3">
+  <test name="Core Product Tests">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nba.automation.coreproduct.runner.CPTestRunner"/>
+    </classes>
+  </test>
+</suite>

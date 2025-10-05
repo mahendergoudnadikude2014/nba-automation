@@ -1,0 +1,8 @@
+<suite name="DP1 Suite" parallel="tests" thread-count="3">
+  <test name="Derived Product1 Tests">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.nba.automation.DP1.runner.DP1TestRunner"/>
+    </classes>
+  </test>
+</suite>

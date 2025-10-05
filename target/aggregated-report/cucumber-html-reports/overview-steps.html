@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>NBA Automation Aggregated Report</td>
+      <td>05 Oct 2025, 18:56</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.nba.automation.DP1.steps.DP1SlidesSteps.iCountSlidesUnderTicketsMenu()</td>
+              <td>1</td>
+              <td class="duration" data-value="49151000">0.049</td>
+              <td class="duration" data-value="49151000">0.049</td>
+              <td class="duration" data-value="49151000">0.049</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP1.steps.DP1SlidesSteps.iNavigateToTheDP1Homepage()</td>
+              <td>1</td>
+              <td class="duration" data-value="13071761000">13.071</td>
+              <td class="duration" data-value="13071761000">13.071</td>
+              <td class="duration" data-value="13071761000">13.071</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP1.steps.DP1SlidesSteps.i_validate_the_slide_durations_with_expected_data()</td>
+              <td>1</td>
+              <td class="duration" data-value="90042743000">1:30.042</td>
+              <td class="duration" data-value="90042743000">1:30.042</td>
+              <td class="duration" data-value="90042743000">1:30.042</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP1.steps.DP1SlidesSteps.i_validate_the_slide_titles_with_expected_data()</td>
+              <td>1</td>
+              <td class="duration" data-value="193285000">0.193</td>
+              <td class="duration" data-value="193285000">0.193</td>
+              <td class="duration" data-value="193285000">0.193</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP1.steps.DP1SlidesSteps.the_slide_count_should_be(java.lang.Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="39110000">0.039</td>
+              <td class="duration" data-value="39110000">0.039</td>
+              <td class="duration" data-value="39110000">0.039</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP2.steps.DP2Steps.i_extract_all_footer_hyperlinks()</td>
+              <td>1</td>
+              <td class="duration" data-value="492657000">0.492</td>
+              <td class="duration" data-value="492657000">0.492</td>
+              <td class="duration" data-value="492657000">0.492</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP2.steps.DP2Steps.i_navigate_to_the_dp2_homepage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5625829000">5.625</td>
+              <td class="duration" data-value="5625829000">5.625</td>
+              <td class="duration" data-value="5625829000">5.625</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP2.steps.DP2Steps.i_scroll_down_to_the_footer_section()</td>
+              <td>1</td>
+              <td class="duration" data-value="680590000">0.680</td>
+              <td class="duration" data-value="680590000">0.680</td>
+              <td class="duration" data-value="680590000">0.680</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.DP2.steps.DP2Steps.i_write_footer_links_to_csv_file_and_check_for_duplicates()</td>
+              <td>1</td>
+              <td class="duration" data-value="3355000">0.003</td>
+              <td class="duration" data-value="3355000">0.003</td>
+              <td class="duration" data-value="3355000">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.CPShopSteps.i_am_on_the_core_product_homepage()</td>
+              <td>2</td>
+              <td class="duration" data-value="8142478000">8.142</td>
+              <td class="duration" data-value="8142478000">11.646</td>
+              <td class="duration" data-value="16284956000">16.284</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.CPShopSteps.i_collect_all_jackets_title_price_and_top_seller_message_from_all_pages()</td>
+              <td>1</td>
+              <td class="duration" data-value="2865536000">2.865</td>
+              <td class="duration" data-value="2865536000">2.865</td>
+              <td class="duration" data-value="2865536000">2.865</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.CPShopSteps.i_navigate_to_shop_mens_section()</td>
+              <td>1</td>
+              <td class="duration" data-value="7688368000">7.688</td>
+              <td class="duration" data-value="7688368000">7.688</td>
+              <td class="duration" data-value="7688368000">7.688</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.CPShopSteps.i_select_jackets_in_the_departments_list()</td>
+              <td>1</td>
+              <td class="duration" data-value="3463011000">3.463</td>
+              <td class="duration" data-value="3463011000">3.463</td>
+              <td class="duration" data-value="3463011000">3.463</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.CPShopSteps.save_details_to_file_and_attach_to_report()</td>
+              <td>1</td>
+              <td class="duration" data-value="3610000">0.003</td>
+              <td class="duration" data-value="3610000">0.003</td>
+              <td class="duration" data-value="3610000">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.NewsAndFeaturesSteps.i_count_total_number_of_video_feeds()</td>
+              <td>1</td>
+              <td class="duration" data-value="557462000">0.557</td>
+              <td class="duration" data-value="557462000">0.557</td>
+              <td class="duration" data-value="557462000">0.557</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.NewsAndFeaturesSteps.i_count_video_feeds_older_than_3_days()</td>
+              <td>1</td>
+              <td class="duration" data-value="803879000">0.803</td>
+              <td class="duration" data-value="803879000">0.803</td>
+              <td class="duration" data-value="803879000">0.803</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.NewsAndFeaturesSteps.i_hover_and_click_new_and_featured()</td>
+              <td>1</td>
+              <td class="duration" data-value="3847435000">3.847</td>
+              <td class="duration" data-value="3847435000">3.847</td>
+              <td class="duration" data-value="3847435000">3.847</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.nba.automation.coreproduct.steps.NewsAndFeaturesSteps.verify_feed_counts()</td>
+              <td>1</td>
+              <td class="duration" data-value="2745000">0.002</td>
+              <td class="duration" data-value="2745000">0.002</td>
+              <td class="duration" data-value="2745000">0.002</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>18</td>
+            <td>19</td>
+            <td class="duration">7.669</td>
+            <td class="duration">1:30.042</td>
+            <td class="duration">2:25.715</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

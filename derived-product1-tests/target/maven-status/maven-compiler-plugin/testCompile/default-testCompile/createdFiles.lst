@@ -1,0 +1,4 @@
+com/nba/automation/DP1/testdata/DP1SlidesTestData.class
+com/nba/automation/DP1/steps/DP1SlidesSteps.class
+com/nba/automation/DP1/testdata/TestDataReader.class
+com/nba/automation/DP1/runner/DP1TestRunner.class

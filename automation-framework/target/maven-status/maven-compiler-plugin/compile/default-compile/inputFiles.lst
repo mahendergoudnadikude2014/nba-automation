@@ -1,0 +1,8 @@
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/BasePage.java
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/BaseTest.java
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/ConfigReader.java
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/CucumberReportGeneratorInvoker.java
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/FileUtils.java
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/Hooks.java
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/Log.java
+/Users/nsgoud/eclipse-workspace/NBA-Automation/automation-framework/src/main/java/com/nba/automation/framework/WebDriverManager.java

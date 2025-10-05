@@ -1,0 +1,3 @@
+com/nba/automation/coreproduct/steps/CPShopSteps.class
+com/nba/automation/coreproduct/runner/CPTestRunner.class
+com/nba/automation/coreproduct/steps/NewsAndFeaturesSteps.class
